@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>pertemuan 2 pweb
+        </title>
+    </head>
+    <body>
+        <table border="1" cellpadding="3">
+            <thead>
+                <th>Kolom 1</th>
+                <th>Kolom 2</th>
+                <th>Kolom 3</th>
+                <th>Kolom 4</th>
+
+            </thead>
+            <tbody>
+                <tr>
+                    <td rowspan="2">
+                        <a href="https://portal.uad.ac.id/">Portal UAD</a>
+                        <br>
+                        <a href="https://instagram.com/">Instagram</a>
+                        <br>
+                        <a href=""></a>
+                    </td>
+                    <td>baris 1 kolom 2</td>
+                    <td>baris 1 kolom 3</td>
+                    <td rowspan="3"> <img src="kucing.jpg" alt="ini gambar kucing"  height="55px"> </td>
+                </tr>
+                
+                <tr>
+                    <!--    <td>baris 2 kolom 1</td>    -->
+                    <td>baris 2 kolom 2</td>
+                    <td>baris 2 kolom 3</td>
+                    <!--    <td>baris 2 kolom 4</td>    -->
+                </tr>
+
+                <tr>
+                    <td colspan="3">baris 3 kolom 1</td>
+                    <!--   <td>baris 3 kolom 2</td>
+                    <td>baris 3 kolom 3</td>       -->
+                    <!--    <td>baris 3 kolom 4</td>        -->
+                </tr>
+
+            </tbody>
+        </table>
+    </body>
+</html>
