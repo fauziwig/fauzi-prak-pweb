@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>pertemuan 2 pweb
+        </title>
+    </head>
+    <body>
+        <table border="1" cellpadding="3">
+            <thead>
+                <th>Link </th>
+                <th>Conten</th>
+                <th>Alamat</th>
+
+            </thead>
+            <tbody>
+                <tr>
+                    <td> <a href="https://instagram.com/">link 1(instagram)</a></td>
+                    <td rowspan="2">   
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corporis eius perferendis ab culpa a quam repellendus sapiente, 
+                        quis reiciendis tenetur et aspernatur veniam ratione dolores quod inventore corrupti qui accusamus!
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate aperiam voluptate et minima
+                        suscipit dolor animi recusandae omnis consectetur excepturi quisquam, optio corporis officia beatae, itaque debitis rem sequi quibusdam. </td>
+                    <td rowspan="2">bantul</td>
+                    
+                </tr>
+                
+                <tr>
+                    <td>
+                        <ul>
+                            <li><a href="https://facebook.com/">link 2(facebook)</a></li>
+                        </ul>  
+                    </td>    
+                </tr>
+
+                <tr>
+                    <td colspan="3">baris 3 kolom 1</td>
+                          
+                        
+                </tr>
+                <tr>
+                    <td colspan="3"><img src="kucing.jpg" alt="kucing" width="100px " height="10px"></td>
+                </tr>
+
+            </tbody>
+        </table>
+    </body>
+</html>
