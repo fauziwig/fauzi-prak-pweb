@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="">
+		<meta name="viewport" content="">
+		<title>Pertemuan 3- PWeb</title>
+	</head>
+	
+	<style>
+		.header{
+			text-align: center;
+			height: 100%;
+			border: 2px solid red;
+			background-color:	yellow;
+			
+		}
+
+		.sidebar{
+			width: 30%;
+			border: 2px solid red;	
+			height: 450px;
+			text-align: left;
+			float :left;
+			
+		}
+
+		.content{
+			border: 2px solid red;
+			width: 99.6%;
+			height: 450px;
+
+		}
+
+		.footer{
+			border: 2px solid red;
+			text-align: center;
+			background-color: yellow;
+		}
+
+		.input[type="submit"]{
+			border: 5px;
+			background-color: blue;
+
+		}
+
+		.bentuk{
+			background-color: blueviolet;
+			width: 60%;
+			height: 60%;
+			border-radius: 50px;
+			float: right;
+			margin-right: 30px;
+		}
+
+		.form{
+			float: center;
+			margin-top: ;
+			margin-bottom: ;
+			margin-left: ;
+			margin-right: ;
+		}
+	</style>
+
+	<body>
+		<div class="header">
+			<h1>Header </h1>
+		</div>
+
+		<div class="sidebar">
+			<h1>Menu </h1>
+			<ul>
+				<li>Biodata</li>
+				<li>Pendaftaran</li>
+				<li>Pendaftaran</li>
+			</ul>
+		</div>
+
+
+		<div class="content">
+			<h1>Content</h1>
+			<div class="bentuk">
+			<div class="form">
+			<form action="" method="post" autocomplete="on" enctype="multipart/form-data">
+				<label for="nama">Nama </label>
+				<input type="text" name="nama">
+				<br> <br>
+				<label for="nim">NIM</label>
+				<input type="number" name="nim">
+				<br> <br>
+				<label for="jenis-kelamin">Jenis Kelamin : </label>
+				<input type="radio" name="jenis-kelamin" value="laki laki">Laki Laki 
+				<input type="radio" name="jenis-kelamin" value="perempuan">Perempuan
+				<br>
+				<label for="tgl">Tanggal Lahir </label>
+				<input type="date" name="tgl">
+				<br>
+				<label for="hobi">Hobi : </label>
+				<input type="checkbox" name="makan">
+				<label for="makan">makan</label>
+				
+				<input type="checkbox" name="ngo">
+				<label for="ngo">ngoding</label>
+				
+				<input type="checkbox" name="nonton">
+				<label for="nonton">nonton</label>
+				<br>
+
+				<label for="pesan">pesan</label>
+				<input type="text" name="pesan">
+				
+				<br>
+				<label for="status">status</label>
+				<select name="status" id="status">
+					<option value="Mahasiswa">Mahasiswa</option>
+					<option value="Umum">Umum</option>
+					<option value="Pelajar">Pelajar</option>
+				</select>
+				<br>
+				<input type="submit" value="Submit">
+				<input type="reset" value="Reset">
+
+			</form>
+
+			</div>
+		</div>
+		</div>
+		<div class="footer">
+			<h1>Footer</h1>
+		</div>
+	</body>
+
+</html>
